@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638689897180000000
-    m_Hash: 1302902525
+      ticks: 638694212700000000
+    m_Hash: 1659609691
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: "D:/Uni/2\xBA GVEI/Matem\xE1ticas II/Unity/Minijuegos Runner/MinijuegosMates/Packages"
-m_EditorVersion: 2022.3.45f1 (a13dfa44d684)
+m_EditorVersion: 2022.3.30f1 (70558241b701)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.6.0
   testable: 0
@@ -121,11 +121,13 @@ m_ResolvedPackages:
     - 2.5.2
     - 2.6.0
     compatible:
+    - 2.3.1
+    - 2.4.3
     - 2.4.4
     - 2.5.1
     - 2.5.2
     - 2.6.0
-    recommended: 2.4.4
+    recommended: 2.3.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -164,7 +166,7 @@ m_ResolvedPackages:
     revision: b7effc6b40a40af218ae30084906471699330ac9
     path: 
   unityLifecycle:
-    version: 2.4.4
+    version: 2.3.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -227,7 +229,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.31
+    version: 3.0.28
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -235,7 +237,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.6
+    version: 1.2.5
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -751,7 +753,6 @@ m_ResolvedPackages:
     - 1.7.6
     - 1.7.7
     - 1.7.8
-    - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
     - 1.9.1
@@ -762,8 +763,7 @@ m_ResolvedPackages:
     - 1.9.4
     - 1.9.5
     recommended: 1.9.5
-    deprecated:
-    - 1.8.0-pre.1
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -2829,12 +2829,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.28
   testable: 0
   isDirectDependency: 0
-  version: 3.0.31
+  version: 3.0.28
   source: 1
-  resolvedPath: "D:\\Uni\\2\xBA GVEI\\Matem\xE1ticas II\\Unity\\Minijuegos Runner\\MinijuegosMates\\Library\\PackageCache\\com.unity.ide.rider@3.0.31"
+  resolvedPath: "D:\\Uni\\2\xBA GVEI\\Matem\xE1ticas II\\Unity\\Minijuegos Runner\\MinijuegosMates\\Library\\PackageCache\\com.unity.ide.rider@3.0.28"
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -2896,6 +2896,7 @@ m_ResolvedPackages:
     - 3.0.31
     - 3.0.34
     compatible:
+    - 3.0.28
     - 3.0.31
     - 3.0.34
     recommended: 3.0.34
@@ -2917,16 +2918,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638447139880000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: f4880c72477e9bbd7321c0dbda4428fa10d916df
     path: 
   unityLifecycle:
-    version: 3.0.31
+    version: 3.0.28
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3281,12 +3282,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.testtools.codecoverage@1.2.6
+- packageId: com.unity.testtools.codecoverage@1.2.5
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 1.2.5
   source: 1
-  resolvedPath: "D:\\Uni\\2\xBA GVEI\\Matem\xE1ticas II\\Unity\\Minijuegos Runner\\MinijuegosMates\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6"
+  resolvedPath: "D:\\Uni\\2\xBA GVEI\\Matem\xE1ticas II\\Unity\\Minijuegos Runner\\MinijuegosMates\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5"
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3337,6 +3338,7 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     compatible:
+    - 1.2.5
     - 1.2.6
     recommended: 1.2.6
     deprecated: []
@@ -3371,16 +3373,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638575857900000000
+  datePublishedTicks: 638386640140000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
+    revision: afeb9febf6597fcc31c99ca116d6a82b1e97b9f5
     path: 
   unityLifecycle:
-    version: 1.2.6
+    version: 1.2.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3523,4 +3525,4 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-m_BuiltInPackagesHash: 4bf036992e66df8542a0e2a381a825a4a2452a54
+m_BuiltInPackagesHash: 956a35e0dfec766c8a8a607d0057217f08b46959

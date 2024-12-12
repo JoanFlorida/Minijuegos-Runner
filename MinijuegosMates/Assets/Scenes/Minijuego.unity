@@ -122,6 +122,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &147131342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147131343}
+  - component: {fileID: 147131344}
+  m_Layer: 0
+  m_Name: AlgoritmoTernario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &147131343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147131342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00043125823, y: 1.843037, z: 0.16623828}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &147131344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147131342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f291661ec846545874677ef54043de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elements: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  randomNum: 0
+  posRandomElement: 0
+  limMax: 0
+  limMin: 0
+  marcMax: 0
+  marcMin: 0
 --- !u!1 &347440798
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &377119030
 Transform:
   m_ObjectHideFlags: 0
@@ -199,10 +250,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elements: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   randomNum: 0
-  randomElement: 0
-  numMax: 0
-  numMin: 0
-  carta: {fileID: 4519914367599600873, guid: 32ec4a0637351e140b810da0a29164b6, type: 3}
+  posRandomElement: 0
+  limMax: 0
+  limMin: 0
+  numCentral: 0
+  posNumCentral: 0
+  posNumMin: 0
+  posNumMax: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1269503992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +543,6 @@ MonoBehaviour:
   elements: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   randomNum: 0
   randomElement: 0
-  carta: {fileID: 4519914367599600873, guid: 32ec4a0637351e140b810da0a29164b6, type: 3}
 --- !u!4 &1269503993
 Transform:
   m_ObjectHideFlags: 0
@@ -671,6 +724,7 @@ SceneRoots:
   - {fileID: 347440799}
   - {fileID: 1269503993}
   - {fileID: 377119030}
+  - {fileID: 147131343}
   - {fileID: 2044377634}
   - {fileID: 1605532111}
   - {fileID: 756443403}

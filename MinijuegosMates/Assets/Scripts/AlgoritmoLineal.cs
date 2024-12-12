@@ -8,7 +8,6 @@ public class AlgoritmoLineal : MonoBehaviour
 
     public List<int>        elements;
     public int              randomNum, randomElement;
-    public GameObject       carta;
 
     // Start is called before the first frame update
     void Start()
@@ -41,17 +40,19 @@ public class AlgoritmoLineal : MonoBehaviour
         randomNum           = elements[randomElement];
     }
 
-    void FindElement()
+    int FindElement()
     {
         for (int i = 0; i < elements.Count; i++)
         {
             if (elements[i] == randomNum)
             {
                 Debug.Log("Se encontró el número. Es " + randomNum);
-                break;
+                return randomNum;
             }
-            Debug.Log("No se encontró el número.");
         }
+
+        Debug.Log("No se encontró el número.");
+        return 0;
     }
 
     public void SetEasyMode()
