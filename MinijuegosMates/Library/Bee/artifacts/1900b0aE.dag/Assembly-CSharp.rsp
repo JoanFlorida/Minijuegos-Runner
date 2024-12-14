@@ -355,6 +355,11 @@
 "Assets/Scripts/AlgoritmoBinario.cs"
 "Assets/Scripts/AlgoritmoLineal.cs"
 "Assets/Scripts/AlgoritmoTernario.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GameMode.cs"
+"Assets/Scripts/Main Menu.cs"
+"Assets/UI/Scripts UI/CardScript.cs"
+"Assets/UI/Scripts UI/RNCardScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+

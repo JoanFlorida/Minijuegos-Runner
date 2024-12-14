@@ -7,7 +7,6 @@ public class AlgoritmoTernario : MonoBehaviour
     public List<int>            elements;
     public int                  randomNum, posRandomElement, limMax, limMin, marcMax, marcMin;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -71,8 +70,4 @@ public class AlgoritmoTernario : MonoBehaviour
         else { Debug.Log("Valor no encontrado."); return 0; };
     }
 
-    public void SetHardMode()
-    {
-        gameObject.SetActive(true);
-    }
 }

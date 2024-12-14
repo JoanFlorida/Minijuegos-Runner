@@ -8,12 +8,13 @@ public class AlgoritmoLineal : MonoBehaviour
 
     public List<int>        elements;
     public int              randomNum, randomElement;
+    public GameObject       gameManager;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        GetElementList();
-        GetElement();
+        elements = gameManager.GetComponent<GameManager>().elements;
         FindElement();
     }
 
@@ -23,6 +24,7 @@ public class AlgoritmoLineal : MonoBehaviour
 
     }
 
+    /*
     void GetElementList()
     {
         for (int i = 0; i < elements.Count; i++)
@@ -39,6 +41,7 @@ public class AlgoritmoLineal : MonoBehaviour
         randomElement       = Random.Range(0, 9);
         randomNum           = elements[randomElement];
     }
+    */
 
     int FindElement()
     {
@@ -53,10 +56,5 @@ public class AlgoritmoLineal : MonoBehaviour
 
         Debug.Log("No se encontró el número.");
         return 0;
-    }
-
-    public void SetEasyMode()
-    {
-       gameObject.SetActive(true);
     }
 }

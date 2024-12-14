@@ -95,9 +95,5 @@ public class AlgoritmoBinario : MonoBehaviour
     }
     */
 
-    public void SetMediumMode()
-    {
-        gameObject.SetActive(true);
-    }
     
 }
